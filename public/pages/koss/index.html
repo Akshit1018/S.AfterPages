@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../_back.css" />
+  <link rel="stylesheet" href="../_gate.css" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Pore Minimizer Serum | kōss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="after-back" href="/">← All pages <span>AFTER gallery</span></a>
+
+  <div class="phone">
+    <header class="nav">
+      <a class="logo" href="#">kōss</a>
+      <div class="nav-r">
+        <button class="ico" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+        </button>
+        <button class="ico cart" aria-label="Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.4 8H7.2L6 6z"/><path d="M6 6L5 3H2"/><circle cx="9" cy="19" r="1"/><circle cx="17" cy="19" r="1"/></svg>
+          <span class="count" id="count">0</span>
+        </button>
+        <button class="ico" aria-label="Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <img id="hero" class="hero-main" src="assets/bottle.jpg" alt="kōss Pore Minimizer Serum" />
+      <img class="hero-side" src="assets/model.jpg" alt="" />
+    </section>
+
+    <div class="thumbs" id="thumbs">
+      <button class="on" data-src="assets/bottle.jpg"><img src="assets/bottle.jpg" alt="" /></button>
+      <button data-src="assets/model.jpg"><img src="assets/model.jpg" alt="" /></button>
+      <button data-src="assets/apply.jpg"><img src="assets/apply.jpg" alt="" /></button>
+      <button data-src="assets/skin.jpg"><img src="assets/skin.jpg" alt="" /></button>
+    </div>
+
+    <div class="pad">
+      <span class="best">Best Seller</span>
+      <h1>PORE MINIMIZER SERUM</h1>
+      <p class="sub">Root-Cause Pore Refining Treatment Serum</p>
+      <div class="rating">★★★★☆ <b>4.6</b> <span>(3557)</span></div>
+
+      <div class="price">
+        <strong id="price">₹ 2,550.00</strong>
+        <s>₹ 3,200</s>
+        <em>Save 20%</em>
+      </div>
+      <p class="gifts">Offers + Free gifts available</p>
+
+      <h3>Combo Offers</h3>
+      <div class="combos" id="combos">
+        <button class="combo" data-qty="2" data-price="4550">
+          <img src="assets/pack2.jpg" alt="Pack of 2" />
+          <p>Pack of 2</p>
+          <b>₹ 4,550</b>
+        </button>
+        <button class="combo" data-qty="3" data-price="6375">
+          <img src="assets/pack3.jpg" alt="Pack of 3" />
+          <p>Pack of 3</p>
+          <b>₹ 6,375</b>
+        </button>
+        <button class="combo" data-qty="4" data-price="7650">
+          <img src="assets/pack4.jpg" alt="Pack of 4" />
+          <p>Pack of 4</p>
+          <b>₹ 7,650</b>
+        </button>
+      </div>
+    </div>
+
+    <section class="scan">
+      <img src="assets/model.jpg" alt="Skin scan" />
+      <div class="frame"></div>
+      <span class="chip tl">Female, 18+<small>Gender/Age</small></span>
+      <span class="chip tr">Oily Skin<small>Skin Type</small></span>
+      <span class="chip br">Moist<small>Climate</small></span>
+    </section>
+  </div>
+
+  <div class="sticky">
+    <div>
+      <p>PORE MINIMIZER SERUM</p>
+      <small>30 ml · <button type="button" id="change">Change</button></small>
+    </div>
+    <strong id="stickyPrice">₹ 2,550.00</strong>
+    <button type="button" class="add" id="add">Add to Cart</button>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="js/main.js"></script>
+  <script src="../_gate.js"></script>
+</body>
+</html>

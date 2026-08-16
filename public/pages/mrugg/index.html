@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../_back.css" />
+  <link rel="stylesheet" href="../_gate.css" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>FACEBRICK — Rugged Look. Zero Shine. | mRUGG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="after-back" href="/">← All pages <span>AFTER gallery</span></a>
+
+  <div class="phone">
+    <div class="welcome">Welcome to our store</div>
+
+    <header class="nav">
+      <button class="ico" aria-label="Menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="logo" href="#">mRUGG</a>
+      <div class="nav-r">
+        <button class="ico" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+        </button>
+        <button class="ico" aria-label="Account">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="ico cart" aria-label="Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.4 8H7.2L6 6z"/><path d="M6 6L5 3H2"/><circle cx="9" cy="19" r="1"/><circle cx="17" cy="19" r="1"/></svg>
+          <span class="count" id="count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <img src="assets/hero.jpg" alt="mRUGG FACEBRICK" />
+      <p>REMOVE TAN<br />IN<br />10 SECONDS</p>
+    </section>
+
+    <div class="dots"><i></i><i></i><i class="on"></i><i></i><i></i></div>
+
+    <div class="pad">
+      <h1>Rugged Look.<br />Zero Shine.</h1>
+      <p class="sub">Instant matte finish. All-day confidence.</p>
+
+      <div class="badges">
+        <span>4.9/5 Rated</span>
+        <span>Non-Transfer</span>
+        <span>Sweat Resist</span>
+      </div>
+
+      <div class="price">
+        <strong>Rs. 1,199</strong>
+        <s>Rs. 1,599</s>
+        <em>25% OFF</em>
+      </div>
+
+      <div class="meta">
+        <p><b>Routine:</b> Anytime</p>
+        <p><b>Skin Type:</b> All types</p>
+      </div>
+
+      <div class="best">
+        <span>Best for:</span>
+        <em>Brighter Face</em>
+        <em>Matte Look</em>
+        <em>Dry & Oily Skin</em>
+      </div>
+
+      <p class="live">8 sold in last 24 Hrs · 169 people are viewing this page</p>
+
+      <div class="shade-label">Shade: <b id="shade">Medium</b></div>
+      <div class="shades" id="shades">
+        <button class="s1" data-name="Light" aria-label="Light"></button>
+        <button class="s2 on" data-name="Medium" aria-label="Medium"></button>
+        <button class="s3" data-name="Dark" aria-label="Dark"></button>
+      </div>
+
+      <button type="button" class="finder" id="finder">Your Suitable Brick Finder</button>
+      <button type="button" class="add" id="add">Add to cart</button>
+
+      <p class="ticks">10 Sec Result · 30-Day Money Back · CDSCO Certified</p>
+
+      <div class="stats">
+        <div><strong>96%</strong>Instant Oil Control</div>
+        <div><strong>92%</strong>Matte Finish That Lasts</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" hidden>
+    <div class="sheet-card">
+      <h3>Brick Finder</h3>
+      <p>Pick the closest match to your jawline in daylight.</p>
+      <div class="finder-row">
+        <button type="button" data-name="Light">Light</button>
+        <button type="button" data-name="Medium">Medium</button>
+        <button type="button" data-name="Dark">Dark</button>
+      </div>
+      <button type="button" class="close" id="closeFinder">Use this shade</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="js/main.js"></script>
+  <script src="../_gate.js"></script>
+</body>
+</html>
